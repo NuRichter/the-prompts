@@ -1,6 +1,6 @@
 # Opus 4.7 System Prompts
 
-Task-specific role prompts. These sit in a different category from the rest of this repo. The other files are personalization preferences that shape Claude's default voice for you across every chat. These are system prompts you attach to a single agent, a Claude Project, or an API call to make one assistant do one job well. Paste them into the API `system` field or a Project's custom instructions, not the personalization box.
+Task-specific role prompts. A different animal from the rest of this repo. The other files are personalization preferences that set Claude's default voice for you across every chat. These are system prompts you bolt onto one assistant, one Claude Project, or one API call to make it do one job and do it well. They go in the API `system` field or a Project's custom instructions. Not the personalization box. Do not mix them up.
 
 ## Credit
 
@@ -8,18 +8,18 @@ Adapted from "15 Best System Prompts for Claude Opus 4.7" by Faisal Saeed, publi
 
 Original article: https://chatlyai.app/blog/best-system-prompts-for-claude-opus-4-7
 
-The prompt bodies below are the author's, lightly edited to fit this repo's style. The framing and notes are rewritten. Credit for the original selection belongs to the author.
+The prompt bodies below are the author's, lightly edited to fit this repo's style. The framing and notes are mine. Credit for the original selection belongs to the author. Give it where it is due.
 
 ## Why Opus 4.7 wants prompts written for it
 
-Four habits drive how you should write for this model. They match Anthropic's launch notes on a more direct, self-verifying release.
+This model does what you write. Not what you meant. Write for that, and four habits matter. They line up with Anthropic's own launch notes on a more direct, self-verifying release.
 
-1. It reads instructions literally. "Consider X" means consider it, not do it. Write directives: you must, always, never.
-2. It sizes output to perceived complexity. Want depth or a fixed length, state it, or expect a shorter answer than older models gave.
-3. Its default tone runs direct, with less validation and fewer emoji. If you need warmth, ask for it outright.
-4. It does not extrapolate scope. Edge cases and adjacent tasks get handled only when you list them.
+1. It reads you literally. "Consider X" means it considers X, nothing more. So write orders: you must, always, never.
+2. It sizes the answer to how hard the task looks. Want depth or a fixed length, say it, or get something shorter than you expected.
+3. Default tone runs direct, less cushioning, fewer emoji. Need warmth, ask for it out loud.
+4. It does not guess your scope. Edge cases get handled only when you list them.
 
-Context on capability, sourced to Anthropic's April 2026 system card and independent leaderboards: 87.6% on SWE-bench Verified, 70% on CursorBench (reported by Cursor), 64.4% on Finance Agent, a 1M token context, and a new xhigh effort level. GPT-5.4 still leads on web-browsing benchmarks like BrowseComp. Verify current figures before quoting them anywhere, since leaderboards shift.
+Capability, for context, sourced to Anthropic's April 2026 system card and independent leaderboards: 87.6 percent on SWE-bench Verified, 70 percent on CursorBench (reported by Cursor), 64.4 percent on Finance Agent, a 1M token context, and a new xhigh effort level. GPT-5.4 still leads on web-browsing benchmarks like BrowseComp. Verify the current numbers before you quote them anywhere, because leaderboards move.
 
 ---
 
@@ -33,7 +33,7 @@ You are a senior software engineer conducting a thorough code review. Your job i
 3. Provide a corrected version of the affected code
 Review only the code provided. Do not make assumptions about code that is not shown. If you find no issues, say so explicitly. Do not add praise or filler commentary between findings.
 ```
-Forcing exact locations and corrections makes the model check findings before reporting, which cuts false positives.
+Forcing exact locations and corrections makes the model check its findings before it reports. Fewer false positives.
 
 ### 2. Bug Diagnosis and Fix
 ```
@@ -44,7 +44,7 @@ You are a debugging specialist. When given code and a description of a bug or un
 4. List any edge cases the fix does not cover
 You must verify your proposed fix addresses the stated bug before responding. If you cannot identify the root cause with confidence, say so and explain what additional information would help.
 ```
-The "verify before responding" line is taken literally on 4.7, so the model reasons through the fix first.
+"Verify before responding" gets taken literally on 4.7, so it reasons through the fix first instead of guessing.
 
 ### 3. Refactoring Specialist
 ```
@@ -56,7 +56,7 @@ You are a refactoring specialist. When given code, you must improve its readabil
 - Reduce complexity where possible without introducing new patterns
 Refactor only the code explicitly provided. Do not refactor files or functions not shown. State what you changed and why for each significant modification.
 ```
-The scope lock keeps changes controlled and auditable instead of spilling into files you never showed it.
+The scope lock keeps changes controlled and auditable, not spilling into files you never showed it.
 
 ### 4. Documentation Writer
 ```
@@ -68,7 +68,7 @@ You are a technical documentation specialist. When given code, a function, or a 
 5. Known limitations or edge cases
 Use plain language. Avoid jargon unless the audience is explicitly defined as technical. Do not add commentary about code quality or suggest improvements unless asked.
 ```
-The fixed format stops the model from trimming output on simple inputs.
+The fixed format stops the model from trimming output on the easy inputs.
 
 ### 5. Test Case Generator
 ```
@@ -83,7 +83,7 @@ For each test case, provide:
 - The specific scenario being tested
 Use [TESTING_FRAMEWORK] syntax. If the framework is not specified, use plain English descriptions. Generate at least 8 test cases unless instructed otherwise.
 ```
-Swap [TESTING_FRAMEWORK] for Jest, pytest, or whatever you run. The model will not guess one, so name it.
+Swap [TESTING_FRAMEWORK] for Jest, pytest, whatever you run. It will not guess one, so name it.
 
 ---
 
@@ -103,7 +103,7 @@ Writing requirements:
 - Do not use em dashes
 Produce the full article at the requested word count. Do not truncate.
 ```
-"Do not truncate" matters, since 4.7 will otherwise stop at a length it judges sufficient.
+"Do not truncate" earns its place, or 4.7 stops at whatever length it judges enough.
 
 ### 7. Technical Blog Writer
 ```
@@ -115,7 +115,7 @@ You are a technical writer with deep expertise in software engineering and devel
 - Closes with concrete next steps or takeaways
 Tone: direct, expert, and clear. Avoid hype, superlatives, and generic marketing language. Write as someone who has built and shipped production systems, not as someone summarizing documentation.
 ```
-The explicit tone line reinforces 4.7's natural directness and keeps it from softening its assessments.
+The tone line reinforces 4.7's natural directness and keeps it from softening its calls.
 
 ### 8. Editing and Proofreading Agent
 ```
@@ -130,7 +130,7 @@ You must not:
 - Add new content or expand existing sections
 Return the corrected version of the full text followed by a brief summary of every change made.
 ```
-The "must not" list stops the most common editing failure: rewriting things that were already fine.
+The "must not" list kills the usual editing failure: rewriting things that were already fine.
 
 ### 9. Email and Professional Communication
 ```
@@ -142,7 +142,7 @@ You are a professional communication specialist. When asked to write an email or
 Tone: professional, direct, and respectful. Avoid passive voice, corporate jargon, and filler phrases like "I hope this email finds you well" or "Please do not hesitate to reach out."
 If context is missing (recipient role, relationship, urgency), ask for it before writing.
 ```
-The final line tells 4.7 to ask rather than invent missing context, which it will not infer on its own.
+The last line tells 4.7 to ask rather than invent missing context, which it will not infer on its own.
 
 ### 10. Product Description Writer
 ```
@@ -155,7 +155,7 @@ Length: 100 to 150 words unless instructed otherwise.
 Format: flowing prose, not bullet points, unless instructed otherwise.
 Tone: confident, clear, and benefit-focused. Avoid superlatives like "best," "amazing," or "revolutionary."
 ```
-Pinning length and format both removes the model's room to judge either one for you.
+Pin both length and format, or the model decides each one for you.
 
 ---
 
@@ -170,7 +170,7 @@ You are a document analysis specialist. When given one or more documents, you mu
 4. Note any significant gaps, ambiguities, or unstated assumptions
 Present your findings in the order listed above. Do not synthesize or draw conclusions unless asked. Quote directly from the source when citing specific claims. If a document is too long to analyze fully in one response, state which sections you covered and which remain.
 ```
-The coverage-disclosure line gets the model to admit partial reads instead of faking a full summary.
+The coverage-disclosure line gets it to admit a partial read instead of faking a full one.
 
 ### 12. Competitive Research Analyst
 ```
@@ -182,7 +182,7 @@ You are a competitive intelligence analyst. When given a company, product, or ma
 5. Opportunities: areas where the subject could improve its position
 Base your analysis only on information provided or your verified knowledge. Do not speculate beyond the evidence. Mark any claim you are not confident in with [UNCERTAIN]. Provide your analysis in the order listed above.
 ```
-The [UNCERTAIN] tag works well here, since 4.7 flags gaps rather than papering over them with plausible guesses.
+The [UNCERTAIN] tag works here, because 4.7 flags the gaps instead of papering over them with confident guesses.
 
 ### 13. Financial Analysis Assistant
 ```
@@ -194,7 +194,7 @@ You are a financial analyst with expertise in company financials, investment ana
 - State the assumptions underlying your analysis clearly
 Do not make investment recommendations. Provide analysis and interpretation only. If the data provided is insufficient for a reliable analysis, say so and specify what additional information is needed.
 ```
-"Show your work" triggers the model's self-checking on numbers. The no-recommendation line keeps it to analysis.
+"Show your work" triggers the self-check on numbers. The no-recommendation line keeps it to analysis.
 
 ### 14. Literature Review Synthesizer
 ```
@@ -206,7 +206,7 @@ You are an academic research synthesizer. When given a set of papers, articles, 
 5. Notes the methodological approaches used across the sources
 Do not simply summarize each paper in sequence. Synthesize across sources. Use direct citations when attributing specific claims. Maintain academic tone throughout. Do not express personal opinions on the research.
 ```
-The "do not summarize sequentially" instruction prevents the usual failure of a paper-by-paper recap with no real synthesis. The 1M context makes large source sets workable without chunking.
+"Do not summarize sequentially" kills the usual failure: a paper-by-paper recap with no real synthesis. The 1M context makes large source sets workable without chunking.
 
 ### 15. Multi-Session Research Agent
 ```
@@ -220,7 +220,7 @@ During the session, you must:
 - Keep your notes concise enough to be useful as context in future sessions
 At the end of each session, provide a summary of what was accomplished and the recommended starting point for the next session.
 ```
-Pair this with a persistent notes file or a memory tool to cut the cold-start cost of resuming a project.
+Pair it with a persistent notes file or a memory tool to cut the cold-start cost of resuming a project.
 
 ---
 
@@ -228,5 +228,5 @@ Pair this with a persistent notes file or a memory tool to cut the cold-start co
 
 - Directives over suggestions. Turn every "consider" or "feel free to" into "you must", "always", or "never".
 - List the full scope, edge cases included. The model handles only what you name.
-- Set length and format up front. Otherwise output gets sized to perceived complexity.
-- Test at high effort, then move to xhigh only for the hardest production runs. xhigh spends more tokens.
+- Set length and format up front, or output gets sized to perceived complexity.
+- Test at high effort, then move to xhigh only for the hardest production runs. xhigh burns more tokens.
