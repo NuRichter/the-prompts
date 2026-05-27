@@ -1,4 +1,4 @@
-# 15 Template Personalization Prompt untuk Claude (Revisi)
+# 15 Template Personalization Prompt untuk Claude
 
 > Modul untuk kolom Settings, Profile, Preferences. Kata "selalu" membuat modul berlaku permanen; tanpanya, modul hanya aktif saat relevan. Pilih dan gabungkan, jangan tempel semua sekaligus (ada batas karakter). Semua teks di bawah sudah mematuhi gaya global Anda: tanpa tanda pisah em, tanpa emotikon, profesional, lugas, hemat token.
 
