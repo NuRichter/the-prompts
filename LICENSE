@@ -1,0 +1,470 @@
+                        NURICHTER SOFTWARE LICENSE AGREEMENT
+                         Version 2.0, Effective January 1, 2026
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MIT License (Extended Enterprise Edition)
+
+Copyright (c) 2026 NuRichter Workspace
+All rights reserved across all jurisdictions.
+
+NuRichter Workspace ("NuRichter", "the Company", "Licensor") is a technology
+and creative workspace headquartered in Jakarta, Indonesia, operating under
+Indonesian law and applicable international intellectual property treaties,
+including but not limited to the Berne Convention for the Protection of Literary
+and Artistic Works, the Agreement on Trade-Related Aspects of Intellectual
+Property Rights (TRIPS), and the WIPO Copyright Treaty (WCT).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PREAMBLE
+
+This Software License Agreement ("Agreement") governs the use, reproduction,
+modification, distribution, sublicensing, and commercialization of the software,
+source code, object code, algorithms, datasets, model weights, configuration
+files, documentation, interfaces, and all associated assets (collectively, the
+"Software") developed, maintained, or distributed by NuRichter Workspace.
+
+NuRichter Workspace develops software and systems spanning artificial intelligence
+and machine learning, Internet of Things (IoT), electrical engineering, creative
+design, and technical education. The Software covered by this Agreement reflects
+substantial investment in research, engineering labor, and intellectual capital
+by NuRichter and its contributors.
+
+This Agreement is designed to balance the open-source ethos of permissive
+distribution with the legitimate commercial, reputational, and legal interests
+of NuRichter Workspace and the broader contributor community. By obtaining a
+copy of the Software, you ("Licensee", "User", "Recipient") agree unconditionally
+to all terms set forth herein.
+
+IF YOU DO NOT AGREE TO THESE TERMS IN FULL, YOU MUST IMMEDIATELY CEASE ALL
+USE OF THE SOFTWARE AND DESTROY ALL COPIES IN YOUR POSSESSION OR CONTROL.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1 — DEFINITIONS
+
+As used throughout this Agreement, the following terms shall carry the meanings
+ascribed to them below:
+
+1.1  "Software" means the entirety of source code, compiled binaries, object
+     code, libraries, modules, plugins, scripts, configuration schemas, data
+     models, trained machine learning parameters, prompt templates, API
+     specifications, design assets, graphical user interface elements,
+     documentation, test suites, and any other materials authored or curated
+     by NuRichter Workspace and distributed under this Agreement, whether in
+     printed, electronic, or any other form.
+
+1.2  "Derivative Work" means any work that is based on, derived from, adapted
+     from, or incorporates any portion of the Software, including but not limited
+     to translations, adaptations, abridgments, condensations, expansions,
+     arrangements, transformations, or other modifications in which the Software
+     is recast, transformed, or adapted. A work consisting entirely of independent
+     and separate works shall not constitute a Derivative Work.
+
+1.3  "Contribution" means any original work of authorship submitted to NuRichter
+     by any individual or legal entity for inclusion in the Software, including
+     any modifications, annotations, additions, enhancements, or bug fixes,
+     whether submitted via pull request, patch file, email, issue tracker, or
+     any other communication means.
+
+1.4  "Contributor" means any individual or legal entity that has submitted one
+     or more Contributions accepted into the Software by NuRichter.
+
+1.5  "Licensor" means NuRichter Workspace and its authorized legal successors
+     and assigns.
+
+1.6  "Licensee" or "You" means the individual or legal entity exercising
+     permissions granted by this Agreement, and all employees, contractors,
+     agents, and affiliates acting on their behalf.
+
+1.7  "Commercial Use" means any use, reproduction, distribution, public display,
+     public performance, or creation of Derivative Works intended primarily for
+     or directed toward commercial advantage or monetary compensation.
+
+1.8  "Non-Commercial Use" means use that is (i) personal and non-professional,
+     (ii) academic research with no direct commercial application, or
+     (iii) educational use by non-profit academic institutions.
+
+1.9  "Distribution" means making the Software, or any Derivative Work thereof,
+     available to any third party by any means, including but not limited to
+     download, physical media, hosting, streaming, API access, cloud services,
+     or embedding within another product.
+
+1.10 "Effective Date" means the date on which the Licensee first obtains a copy
+     of or access to the Software, whichever is earlier.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 2 — GRANT OF LICENSE
+
+2.1  Subject to the terms and conditions of this Agreement, Licensor hereby
+     grants to Licensee a worldwide, royalty-free, non-exclusive, irrevocable
+     (except as stated in Section 8) license to:
+
+     (a) reproduce and use the Software for any lawful purpose;
+     (b) prepare, reproduce, and use Derivative Works of the Software;
+     (c) distribute copies of the Software or Derivative Works to third parties;
+     (d) sublicense the Software or Derivative Works under terms at least as
+         restrictive as those contained herein;
+     (e) publicly display and publicly perform the Software and Derivative Works.
+
+2.2  The foregoing rights are conditioned upon strict compliance with all
+     obligations set forth in this Agreement, particularly Section 3 (Conditions
+     of Distribution) and Section 4 (Attribution Requirements).
+
+2.3  No license is granted by implication, estoppel, course of dealing, or
+     otherwise for any rights not expressly enumerated in Section 2.1. All
+     rights not expressly granted are reserved by Licensor.
+
+2.4  This Agreement does not grant permission to use the trade names, trademarks,
+     service marks, product names, or logos of NuRichter Workspace or any of
+     its sub-brands (including NuRichter Mulya Jaya, RigRoom, and Ragnarok)
+     except as required for reasonable and customary use in describing the origin
+     of the Software and reproducing the content of NOTICE files.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 3 — CONDITIONS OF DISTRIBUTION
+
+3.1  RETENTION OF NOTICES. Any redistribution of the Software, whether in source
+     or binary form, with or without modification, must reproduce the following
+     in all copies or substantial portions:
+
+     (a) this entire License Agreement;
+     (b) the copyright notice: "Copyright (c) 2026 NuRichter Workspace";
+     (c) any NOTICE file distributed with the Software;
+     (d) all patent notices, disclaimer notices, and attribution notices
+         contained in the original Software.
+
+     Failure to retain any of the foregoing constitutes a material breach of
+     this Agreement and immediately terminates all rights granted hereunder.
+
+3.2  DOCUMENTATION OF MODIFICATIONS. If the Licensee distributes any Derivative
+     Work, the Licensee must include a conspicuous notice in each modified file
+     stating that the file has been changed and identifying the nature and date
+     of such changes. Such notice must appear at the top of each modified source
+     file or, where a source file is not applicable, in accompanying documentation.
+
+3.3  PRESERVATION OF INTEGRITY. The Licensee may not remove, obscure, or alter
+     any copyright notices, author attribution statements, trademark legends, or
+     other proprietary rights notices contained in or on the Software.
+
+3.4  SUBLICENSE RESTRICTIONS. If the Licensee sublicenses the Software or any
+     Derivative Work, the sublicense must be granted under terms that are no
+     less protective of the Licensor's rights than those set forth in this
+     Agreement. The Licensee remains jointly and severally liable for any breach
+     of this Agreement by sublicensees.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 4 — ATTRIBUTION REQUIREMENTS
+
+4.1  All distributions of the Software or Derivative Works must include the
+     following attribution in documentation, "about" screens, README files,
+     splash screens, or other reasonably prominent locations:
+
+         "This software incorporates work developed by NuRichter Workspace.
+          For more information, visit: https://github.com/NuRichter"
+
+4.2  Academic publications, research papers, theses, conference proceedings, or
+     technical reports that incorporate, reference, or build upon the Software
+     or any algorithms or methods derived from it must cite NuRichter Workspace
+     appropriately in accordance with the citation format provided in the
+     Software's documentation, or in the absence of such format, in a manner
+     consistent with the citation standards of the relevant academic field.
+
+4.3  Commercial products or services that incorporate the Software or Derivative
+     Works must acknowledge NuRichter Workspace in their product documentation,
+     end-user license agreements, and, where customary in the industry, in
+     publicly available release notes or product pages.
+
+4.4  Attribution under this Section must use the full legal name "NuRichter
+     Workspace" and must not imply endorsement by NuRichter of the Licensee's
+     product, service, or use case unless a separate written endorsement
+     agreement has been executed between the parties.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 5 — INTELLECTUAL PROPERTY AND OWNERSHIP
+
+5.1  OWNERSHIP. The Software and all copies thereof are and shall remain the
+     exclusive intellectual property of NuRichter Workspace, protected under
+     applicable copyright, patent, trade secret, and other intellectual property
+     laws. This Agreement does not transfer title to or ownership of the Software.
+
+5.2  PATENTS. If the Software implements any patented or patent-pending
+     algorithms, methods, or processes, Licensor grants Licensee a royalty-free
+     license under such patents solely to the extent necessary to exercise the
+     rights granted in Section 2. This patent license does not extend to any
+     patent claims that would be infringed only by Derivative Works of the
+     Licensee or by the combination of the Software with other products, software,
+     or hardware not provided by Licensor.
+
+5.3  CONTRIBUTOR LICENSE. By submitting a Contribution to the Software,
+     Contributors grant Licensor a perpetual, irrevocable, worldwide, royalty-free,
+     non-exclusive license with the right to sublicense, reproduce, prepare
+     Derivative Works of, publicly display, publicly perform, distribute, and
+     commercially exploit the Contribution. Contributors represent and warrant
+     that they have the authority to grant this license and that the Contribution
+     does not infringe any third-party intellectual property rights.
+
+5.4  TRADEMARKS. "NuRichter", "NuRichter Workspace", "Mulya Jaya", "RigRoom",
+     "Ragnarok", and associated logos and graphical marks are trademarks or
+     registered trademarks of NuRichter Workspace. Use of these marks is
+     prohibited without prior written authorization from NuRichter Workspace,
+     except for the limited attribution purposes described in Section 4.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 6 — DISCLAIMER OF WARRANTIES
+
+6.1  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+     OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, LICENSOR
+     EXPRESSLY DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:
+
+     (a) WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE;
+     (b) WARRANTIES OF NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY;
+     (c) WARRANTIES OF ACCURACY, COMPLETENESS, RELIABILITY, OR CURRENTNESS
+         OF THE SOFTWARE OR ITS OUTPUTS;
+     (d) WARRANTIES THAT THE SOFTWARE WILL OPERATE WITHOUT INTERRUPTION OR
+         ERROR, OR THAT DEFECTS WILL BE CORRECTED;
+     (e) WARRANTIES ARISING FROM COURSE OF DEALING, COURSE OF PERFORMANCE,
+         OR USAGE OF TRADE.
+
+6.2  LICENSOR DOES NOT WARRANT THAT THE SOFTWARE IS FREE OF VIRUSES, MALWARE,
+     OR OTHER HARMFUL COMPONENTS. LICENSEE ASSUMES SOLE RESPONSIBILITY FOR
+     APPROPRIATE SECURITY TESTING AND VALIDATION PRIOR TO DEPLOYMENT.
+
+6.3  ANY SOFTWARE OR DATA GENERATED, TRAINED, OR PROCESSED BY OR WITH THE AID
+     OF THE SOFTWARE IS PROVIDED WITHOUT WARRANTY AND SUBJECT TO INDEPENDENT
+     VALIDATION BY THE LICENSEE BEFORE RELIANCE IN ANY PRODUCTION, CLINICAL,
+     SAFETY-CRITICAL, OR REGULATED ENVIRONMENT.
+
+6.4  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES. IN
+     SUCH JURISDICTIONS, THE FOREGOING EXCLUSIONS SHALL APPLY TO THE MAXIMUM
+     EXTENT PERMITTED BY APPLICABLE LAW.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 7 — LIMITATION OF LIABILITY
+
+7.1  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+     LICENSOR, ITS DIRECTORS, OFFICERS, EMPLOYEES, RESEARCHERS, CONTRACTORS,
+     AFFILIATES, PARTNERS, AGENTS, OR CONTRIBUTORS BE LIABLE FOR ANY:
+
+     (a) INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL
+         DAMAGES;
+     (b) LOSS OF PROFITS, REVENUE, DATA, GOODWILL, OR BUSINESS OPPORTUNITIES;
+     (c) COST OF SUBSTITUTE GOODS OR SERVICES;
+     (d) PERSONAL INJURY OR PROPERTY DAMAGE ARISING FROM USE OF THE SOFTWARE;
+     (e) CLAIMS ARISING FROM RELIANCE UPON OUTPUTS PRODUCED BY MACHINE LEARNING
+         ALGORITHMS, PREDICTIVE MODELS, OR AI SYSTEMS INCLUDED IN OR DERIVED
+         FROM THE SOFTWARE;
+
+     ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR
+     INABILITY TO USE THE SOFTWARE, HOWEVER CAUSED AND UNDER ANY THEORY OF
+     LIABILITY (INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR
+     OTHERWISE), EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGES.
+
+7.2  IN JURISDICTIONS WHERE LIMITATION OF LIABILITY FOR CONSEQUENTIAL DAMAGES
+     IS NOT PERMITTED, LICENSOR'S LIABILITY SHALL BE LIMITED TO THE FULLEST
+     EXTENT PERMITTED BY LAW. IN ALL EVENTS, LICENSOR'S AGGREGATE LIABILITY
+     FOR ANY CLAIMS ARISING UNDER OR RELATED TO THIS AGREEMENT SHALL NOT
+     EXCEED THE GREATER OF (i) THE AMOUNT ACTUALLY PAID BY LICENSEE TO
+     LICENSOR FOR THE SOFTWARE IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM,
+     OR (ii) ONE HUNDRED THOUSAND INDONESIAN RUPIAH (IDR 100,000).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 8 — TERM AND TERMINATION
+
+8.1  TERM. This Agreement is effective as of the Effective Date and shall
+     continue in perpetuity unless terminated in accordance with this Section.
+
+8.2  TERMINATION FOR BREACH. Licensor may terminate this Agreement and all
+     licenses granted hereunder immediately and without notice if Licensee
+     materially breaches any provision of this Agreement and fails to cure
+     such breach within thirty (30) days of receiving written notice from
+     Licensor specifying the nature of the breach.
+
+8.3  TERMINATION FOR PATENT LITIGATION. This Agreement and all licenses granted
+     hereunder shall terminate automatically if Licensee initiates or participates
+     in any patent litigation, inter partes review, post-grant review, or similar
+     proceeding alleging that the Software or any portion thereof directly or
+     indirectly infringes any patent claim held by Licensor.
+
+8.4  EFFECT OF TERMINATION. Upon termination of this Agreement:
+
+     (a) all licenses granted hereunder immediately cease and revert to Licensor;
+     (b) Licensee must immediately cease all use, reproduction, and distribution
+         of the Software and all Derivative Works;
+     (c) Licensee must destroy all copies of the Software and Derivative Works
+         in its possession or control, whether on physical media or electronic
+         storage, and certify in writing to Licensor that such destruction is
+         complete within fifteen (15) days of termination.
+
+8.5  SURVIVAL. Sections 5 (Intellectual Property), 6 (Disclaimer of Warranties),
+     7 (Limitation of Liability), 8.4 (Effect of Termination), 9 (Governing Law),
+     and 10 (General Provisions) shall survive any termination of this Agreement.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 9 — GOVERNING LAW AND DISPUTE RESOLUTION
+
+9.1  GOVERNING LAW. This Agreement shall be governed by and construed in
+     accordance with the laws of the Republic of Indonesia, without regard to
+     its conflict-of-laws principles. The United Nations Convention on Contracts
+     for the International Sale of Goods (CISG) shall not apply to this Agreement.
+
+9.2  DISPUTE RESOLUTION. Any dispute, controversy, or claim arising out of or
+     in connection with this Agreement, including any question regarding its
+     existence, validity, breach, or termination, shall be resolved through the
+     following sequential process:
+
+     (a) INFORMAL NEGOTIATION. Either party may initiate informal negotiation
+         by delivering written notice to the other party. The parties shall
+         negotiate in good faith for a period of thirty (30) days following
+         such notice ("Negotiation Period").
+
+     (b) MEDIATION. If the dispute is not resolved during the Negotiation Period,
+         either party may refer the dispute to non-binding mediation administered
+         by the Indonesian Mediation Center (PMN — Pusat Mediasi Nasional) or
+         a mutually agreed mediator, with costs shared equally.
+
+     (c) ARBITRATION. If mediation fails to resolve the dispute within sixty
+         (60) days of commencement, the dispute shall be submitted to final and
+         binding arbitration before the Indonesian National Arbitration Board
+         (BANI — Badan Arbitrase Nasional Indonesia), in accordance with BANI's
+         Rules of Arbitration then in effect. The seat of arbitration shall be
+         Jakarta, Indonesia. The arbitration shall be conducted in Bahasa
+         Indonesia or English, at the election of the claimant. The decision of
+         the arbitral tribunal shall be final and enforceable in any court of
+         competent jurisdiction.
+
+9.3  JURISDICTION. Notwithstanding Section 9.2, either party may seek interim
+     or preliminary injunctive relief from any court of competent jurisdiction
+     as necessary to protect its intellectual property rights or confidential
+     information pending the resolution of a dispute.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 10 — GENERAL PROVISIONS
+
+10.1 ENTIRE AGREEMENT. This Agreement constitutes the entire agreement between
+     the parties with respect to the subject matter hereof and supersedes all
+     prior and contemporaneous agreements, negotiations, representations, and
+     understandings, whether written or oral.
+
+10.2 AMENDMENTS. Licensor reserves the right to update or revise this Agreement
+     at any time. Revised versions shall be posted to the Software's official
+     repository with a new version number and effective date. Continued use of
+     the Software after publication of a revised Agreement constitutes acceptance
+     of the revised terms. It is the Licensee's responsibility to review this
+     Agreement periodically.
+
+10.3 SEVERABILITY. If any provision of this Agreement is held by a court or
+     arbitral tribunal of competent jurisdiction to be invalid, illegal, or
+     unenforceable, such provision shall be modified to the minimum extent
+     necessary to make it enforceable, and the remaining provisions shall
+     continue in full force and effect.
+
+10.4 WAIVER. The failure of either party to enforce any right or provision of
+     this Agreement shall not constitute a waiver of such right or provision.
+     Any waiver must be in writing and signed by an authorized representative
+     of the waiving party to be effective.
+
+10.5 ASSIGNMENT. Licensee may not assign or transfer any rights or obligations
+     under this Agreement without the prior written consent of Licensor. Any
+     purported assignment in violation of this provision shall be null and void.
+     Licensor may freely assign this Agreement in connection with a merger,
+     acquisition, corporate reorganization, or sale of all or substantially all
+     of its assets.
+
+10.6 EXPORT COMPLIANCE. Licensee shall comply with all applicable export control
+     laws and regulations of the Republic of Indonesia and any other applicable
+     jurisdictions in connection with its use and distribution of the Software.
+     Licensee represents and warrants that it is not on any government restricted
+     parties list and that it will not export the Software to any embargoed
+     country or territory.
+
+10.7 FORCE MAJEURE. Neither party shall be liable for any failure or delay in
+     the performance of its obligations under this Agreement to the extent such
+     failure or delay is caused by circumstances beyond such party's reasonable
+     control, including but not limited to acts of God, natural disasters,
+     pandemic, war, civil unrest, government regulation, power failures, or
+     internet outages, provided that the affected party promptly notifies the
+     other party and uses commercially reasonable efforts to resume performance.
+
+10.8 RELATIONSHIP OF PARTIES. Nothing in this Agreement shall be construed to
+     create a partnership, joint venture, agency, employment, or fiduciary
+     relationship between Licensor and Licensee. Each party is an independent
+     contractor with respect to the other.
+
+10.9 HEADINGS. Section headings used in this Agreement are for organizational
+     and reference purposes only and shall have no legal effect on the
+     interpretation of any provision herein.
+
+10.10 LANGUAGE. This Agreement is drafted in the English language. Translations
+      of this Agreement into other languages, including Bahasa Indonesia, are
+      provided for convenience only. In the event of any conflict between the
+      English version and any translation, the English version shall control.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 11 — COMPLIANCE WITH INDONESIAN LAW
+
+11.1 This Agreement is designed to be compatible with and shall be interpreted
+     in accordance with:
+
+     (a) Undang-Undang Nomor 28 Tahun 2014 tentang Hak Cipta (Law No. 28 of
+         2014 on Copyright);
+     (b) Undang-Undang Nomor 13 Tahun 2016 tentang Paten (Law No. 13 of 2016
+         on Patents);
+     (c) Undang-Undang Nomor 20 Tahun 2016 tentang Merek dan Indikasi Geografis
+         (Law No. 20 of 2016 on Trademarks and Geographical Indications);
+     (d) Undang-Undang Nomor 11 Tahun 2008 jo. Undang-Undang Nomor 19 Tahun
+         2016 tentang Informasi dan Transaksi Elektronik (ITE Law);
+     (e) Any implementing regulations and ministerial decrees issued thereunder.
+
+11.2 Where the provisions of this Agreement are inconsistent with mandatory
+     provisions of Indonesian law, the mandatory provisions of Indonesian law
+     shall prevail to the extent of the inconsistency, and the remaining
+     provisions shall continue in full force and effect.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTACT AND NOTICES
+
+All legal notices, inquiries, attribution confirmations, or sublicense
+notifications required or permitted under this Agreement must be delivered in
+writing to:
+
+    NuRichter Workspace
+    Legal & Intellectual Property Division
+    Jakarta, Indonesia
+    GitHub: https://github.com/NuRichter
+    Email:  legal@nurichter.id
+
+Notices delivered by electronic mail shall be deemed received upon
+confirmation of delivery. Notices delivered by registered postal mail shall
+be deemed received five (5) business days after posting.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ACKNOWLEDGMENT
+
+BY OBTAINING, DOWNLOADING, ACCESSING, INSTALLING, COPYING, MODIFYING, OR
+OTHERWISE USING THE SOFTWARE, LICENSEE ACKNOWLEDGES THAT IT HAS READ THIS
+AGREEMENT IN ITS ENTIRETY, UNDERSTANDS ITS TERMS, AND AGREES TO BE BOUND
+BY ALL CONDITIONS SET FORTH HEREIN.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NuRichter Workspace — Building Intelligent Systems, Enabling Impact.
+Copyright (c) 2026 NuRichter Workspace. All rights reserved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                    END OF NURICHTER SOFTWARE LICENSE AGREEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
