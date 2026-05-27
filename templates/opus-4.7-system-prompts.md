@@ -2,14 +2,6 @@
 
 Task-specific role prompts. A different animal from the rest of this repo. The other files are personalization preferences that set Claude's default voice for you across every chat. These are system prompts you bolt onto one assistant, one Claude Project, or one API call to make it do one job and do it well. They go in the API `system` field or a Project's custom instructions. Not the personalization box. Do not mix them up.
 
-## Credit
-
-Adapted from "15 Best System Prompts for Claude Opus 4.7" by Faisal Saeed, published on the Chatly blog (chatlyai.app), April 2026.
-
-Original article: https://chatlyai.app/blog/best-system-prompts-for-claude-opus-4-7
-
-The prompt bodies below are the author's, lightly edited to fit this repo's style. The framing and notes are mine. Credit for the original selection belongs to the author. Give it where it is due.
-
 ## Why Opus 4.7 wants prompts written for it
 
 This model does what you write. Not what you meant. Write for that, and four habits matter. They line up with Anthropic's own launch notes on a more direct, self-verifying release.
